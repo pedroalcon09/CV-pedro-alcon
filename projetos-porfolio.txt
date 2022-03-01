@@ -1,0 +1,35 @@
+1 - TORRE DE HANOI 
+
+https://shiny-robot-111b2774.pages.github.io/
+
+https://github.com/Kenzie-Academy-Brasil-Developers/m2-entrega-torre-de-hanoi-sprint-1a-pedroalcon09
+
+
+2 - QUADRO DE MEDALHAS
+
+https://fluffy-garbanzo-7f3a9185.pages.github.io/
+
+https://github.com/Kenzie-Academy-Brasil-Developers/extra-quadro-medalhas-m2-sprint-3a-pedroalcon09
+
+
+3- NU KENZIE
+
+https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-pedroalcon09
+
+https://m3-sp1b-atvd07.vercel.app/
+
+
+4 - HAMBURGUERIA KENZIE
+
+https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-pedroalcon09
+
+https://m3-sp1b-atvd16.vercel.app/
+
+
+5 - KENZIE HUB
+
+https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-pedroalcon09
+
+https://m3-sp2b-atvd12.vercel.app/
+
+
