@@ -222,6 +222,19 @@ p {
   width: 45px;
 }
 
+#portuguese {
+  width: 150px;
+}
+
+#english {
+  width: 110px;
+}
+
+#french {
+  width: 40px;
+  padding: 6px 0px;
+}
+
 /* HABILIDADES */
 
 @media (min-width: 667px) {
