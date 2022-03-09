@@ -325,3 +325,38 @@ p {
     font-size: 15px;
   }
 }
+
+@media (min-width: 1440px) {
+  #contacts-container {
+    font-size: 17px;
+  }
+
+  #contacts li {
+    width: 300px;
+  }
+
+  .infos-left h2 {
+    margin: 30px;
+    font-size: 40px;
+  }
+
+  .infos-left li {
+    margin: 35px 15px;
+  }
+
+  .infos-left p {
+    font-size: 25px;
+  }
+
+  .infos-left li h3 {
+    font-size: 30px;
+  }
+
+  .infos-left .date {
+    font-size: 22px;
+  }
+
+  .habilidades-diversas h4 {
+    font-size: 20px;
+  }
+}
