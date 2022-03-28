@@ -12,12 +12,12 @@ html {
 }
 
 body {
-  /* background-image: url("./imgs/background3.jpg");
+  background-image: url("./imgs/background3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; */
-  background: linear-gradient(to bottom, #505050, #101010, #505050, #101010);
+  background-attachment: fixed; /* 
+  background: linear-gradient(to bottom, #505050, #101010, #505050, #101010); */
   display: flex;
   flex-direction: column;
 }
@@ -30,6 +30,31 @@ header {
   background-color: lightgrey;
   background-color: rgba(5, 5, 5, 0.5);
   color: aliceblue;
+}
+
+.portfolio {
+  padding: 25px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  border: 3px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgba(160, 194, 248, 0.5);
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  transition: 0.5s;
+  width: 200px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolio:hover {
+  background-color: rgba(160, 194, 248);
+  border-color: whitesmoke;
+  font-size: 30px;
 }
 
 img {
