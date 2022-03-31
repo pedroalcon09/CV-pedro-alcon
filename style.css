@@ -77,6 +77,10 @@ hr {
   height: 1px;
   width: 100%;
 }
+#nome-completo {
+  width: 200px;
+  font-size: 28px;
+}
 h1 {
   font-size: 40px;
 }
@@ -209,7 +213,7 @@ p {
 }
 
 #react {
-  width: 35px;
+  width: 53px;
 }
 
 #javascript {
