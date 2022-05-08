@@ -125,17 +125,17 @@ h3 {
 
 /* TEXTO */
 
-.infos-left {
+.infos-right {
   color: aliceblue;
   margin: 15px;
   padding-bottom: 20px;
 }
 
-.infos-left li {
+.infos-right li {
   margin: 18px;
 }
 
-.infos-left li h3 {
+.infos-right li h3 {
   font-size: 22px;
 }
 
@@ -213,7 +213,7 @@ p {
 }
 
 #react {
-  width: 53px;
+  width: 75px;
 }
 
 #javascript {
@@ -221,19 +221,19 @@ p {
 }
 
 #css {
-  width: 60px;
+  width: 65px;
 }
 
 #html {
-  width: 40px;
+  width: 60px;
 }
 
 #gitHub {
-  width: 30px;
+  width: 35px;
 }
 
 #ableton {
-  width: 62px;
+  width: 65px;
 }
 
 #proTools {
@@ -241,7 +241,7 @@ p {
 }
 
 #violao {
-  width: 40px;
+  width: 50px;
 }
 
 #gravacao {
@@ -257,7 +257,7 @@ p {
 }
 
 #english {
-  width: 110px;
+  width: 150px;
 }
 
 #french {
@@ -335,23 +335,28 @@ p {
   }
 
   h3 {
-    font-size: 23px;
+    font-size: 26px;
   }
   p {
     font-size: 25px;
     line-height: 33px;
   }
 
-  .infos-left h2 {
+  .infos-right h2 {
     font-size: 35px;
   }
 
-  .infos-left li {
+  .infos-right ul li h3 {
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+
+  .infos-right li {
     margin: 45px 15px;
   }
 
   .date {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -364,24 +369,24 @@ p {
     width: 300px;
   }
 
-  .infos-left h2 {
+  .infos-right h2 {
     margin: 30px;
     font-size: 40px;
   }
 
-  .infos-left li {
+  .infos-right li {
     margin: 35px 15px;
   }
 
-  .infos-left p {
+  .infos-right p {
     font-size: 25px;
   }
 
-  .infos-left li h3 {
+  .infos-right li h3 {
     font-size: 30px;
   }
 
-  .infos-left .date {
+  .infos-right .date {
     font-size: 22px;
   }
 
