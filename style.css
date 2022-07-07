@@ -16,8 +16,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; /* 
-  background: linear-gradient(to bottom, #505050, #101010, #505050, #101010); */
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }
@@ -108,7 +107,7 @@ h3 {
 
 #contacts-container {
   background-color: rgb(75, 75, 75, 0.5);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   margin-bottom: 50px;
   font-size: 16px;
@@ -134,6 +133,11 @@ h3 {
   color: aliceblue;
   margin: 15px;
   padding-bottom: 10px;
+}
+
+#about {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .infos-right h2 {
@@ -184,16 +188,17 @@ p {
   font-size: 15px;
 }
 
-#music,
-#code,
-#language {
+#habilidades {
   background-color: rgb(25, 25, 25, 0.9);
   border-radius: 10px;
   margin: 20px 0px;
-  padding: 15px;
+  padding: 10px;
+  width: 220px;
+}
+
+#habilidades #list-hab {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -201,25 +206,17 @@ p {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 200px;
+  width: 100px;
+  font-size: 16px;
 }
 
 .title i {
   margin-right: 5px;
 }
 
-.title #violao {
-  font-size: 15px;
-  width: fit-content;
-}
-
-.title #ableton {
-  font-size: 15px;
-  width: fit-content;
-}
-
-#ts-icon {
+.title #ts-icon {
   margin-right: 5px;
+  font-size: 20px;
 }
 
 .habilidades-diversas #orm-icon {
@@ -233,97 +230,6 @@ p {
 .habilidades-diversas #orm-icon i {
   margin: 0px;
   font-size: 17px;
-}
-
-.bar {
-  width: 150px;
-  background-color: rgb(250, 250, 250);
-  padding: 10px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border-radius: 7px;
-  margin: 5px 0px;
-}
-
-.level {
-  padding: 6px 40px;
-  margin: -25px;
-  border-radius: 5px;
-  background-color: rgb(50, 130, 255, 0.8);
-}
-
-#react {
-  width: 75px;
-}
-
-#javascript {
-  width: 60px;
-}
-
-#css {
-  width: 65px;
-}
-
-#html {
-  width: 60px;
-}
-
-#gitHub {
-  width: 45px;
-}
-
-#node {
-  width: 62px;
-}
-
-#sql {
-  width: 70px;
-}
-
-#ts {
-  width: 50px;
-}
-
-#orm {
-  width: 50px;
-}
-
-#python {
-  width: -10px;
-}
-
-#ableton {
-  width: 80px;
-}
-
-#proTools {
-  width: 40px;
-}
-
-#violao {
-  width: 65px;
-}
-
-#gravacao {
-  width: 65px;
-}
-
-#mixagem {
-  width: 55px;
-}
-
-#portuguese {
-  width: 200%;
-}
-
-#english {
-  width: 200%;
-}
-
-#french {
-  width: 40px;
-  padding: 6px 0px;
 }
 
 /* HABILIDADES */
@@ -355,6 +261,13 @@ p {
     margin-left: 20px;
   }
 
+  #habilidades #list-hab {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .habilidades-diversas {
     padding: 10px;
     margin-left: 20px;
@@ -363,32 +276,36 @@ p {
 
   .habilidades-diversas ul li {
     display: flex;
-    width: 225px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+  }
+
+  .title i {
+    font-size: 18px;
+  }
+
+  .title h4 {
+    font-size: 18px;
+  }
+
+  .title #title-ts {
+    font-size: 17px;
+  }
+
+  .title h6 {
+    font-size: 16px;
   }
 
   .title #violao {
     font-size: 13px;
     width: fit-content;
-  }
-
-  .bar {
-    width: 75px;
-  }
-
-  .level {
-    padding: 6px 5px;
-  }
-
-  #ableton {
-    width: 70px;
-  }
-
-  #proTools {
-    width: 45px;
-  }
-
-  #python {
-    width: 25px;
   }
 
   h2 {
@@ -445,6 +362,24 @@ p {
     line-height: 33px;
   }
 
+  #about {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 50px 10px;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .title i {
+    font-size: 22px;
+  }
+
+  .title h4 {
+    font-size: 22px;
+  }
+
   .infos-right h2 {
     font-size: 35px;
   }
@@ -470,12 +405,25 @@ p {
 }
 
 @media (min-width: 1440px) {
+  #about {
+    font-size: 30px;
+    margin: 50px 10px;
+  }
+
   #contacts-container {
     font-size: 17px;
   }
 
   #contacts li {
     width: 300px;
+  }
+
+  .title i {
+    font-size: 25px;
+  }
+
+  #list-hab .title h4 {
+    font-size: 20px;
   }
 
   .infos-right h2 {
